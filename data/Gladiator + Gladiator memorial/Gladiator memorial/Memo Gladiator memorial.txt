@@ -1,0 +1,7 @@
+Mêmes critères retenus que précédemment. Les mémoriaux de gladiateurs semblent correspondre à des stèles avec inscription du nom du gladiateur ; on reconnaît son état grâce aux éléments iconographiques en relief. Mais du pdv du texte, pose parfois problème : le nom peut être incomplet, et, s'il est complet, peut-être que la machine ne saura pas l'attribuer à une épitaphe ou un monument à la gloire du personnage dépeint, puisque le nom propre n'est probablement pas dans le dictionnaire connu de la machine. 
+
+On a retenu les noms identifiables (soit la toute fin soit le tout début du nom est manquant mais il reste identifiable, soit il est complet). Tout nom ne comportant que trois lettres, par ex, n'est pas retenu. 
+
+Quand plusieurs prises de vue d'une même stèle avec différences de lumière / angle, ou prise entière / détail, on a sélectionné les deux, afin de donner un max de chance à la machine pour décrypter. 
+
+Les images sans texte ne sont pas retenues. 

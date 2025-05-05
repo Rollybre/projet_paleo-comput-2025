@@ -1,0 +1,5 @@
+Exemple de cas limite : le texte est clair pour l'épigraphiste qui retrouve les bouts de mots manquants et peut proposer une traduction, mais quid de la machine ? Le texte est lisible et le corpus a besoin d'images, mais la machine, si elle s'en tient au texte qu'on lui présente, ne saura que restituer les lettres centrales sans avoir la moindre idée de ce qui précède, suit, et ne saura rien du contexte et du sens global. 
+
+Dans l'ensemble, je pense ne pas avoir conservé beaucoup de cas limites comme celui-là, mais il faut bien s'arrêter un moment pour se poser la question. 
+
+Les cas de textes fragmentaires plus petits, moins lisibles, ou sans traduction utile, ont été dans la majeure partie des cas écartés. 

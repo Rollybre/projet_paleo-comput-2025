@@ -1,0 +1,1 @@
+Penser à mettre un cache pour dissimuler le texte ii sur l'image A, et le texte i sur l'image B. Sinon, le message sera lu de façon foireuse. 

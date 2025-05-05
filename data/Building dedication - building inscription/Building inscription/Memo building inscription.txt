@@ -1,0 +1,12 @@
+Memo building inscription. 
+
+Avec Matthieu, on a identifié que certaines de ces inscriptions étaient relatives au bâtiment, d'où l'indication "contenu". 
+
+Or, dans les faits, de nombreuses images présentent des noms, des invocations, etc., autrement dit une catégorie textuelle indépendante de la catégorie "building inscription", à comprendre tantôt comme une catégorie textuelle, tantôt comme une catégorie monumentale.
+
+Id. images rejetées, illisibles / trop lacunaires.
+
+Reprise de mêmes textes lorsque la prise de vue est différente, pour augmenter le nombre d'images travaillées par la machine et identifier si le point de vue adopté pour la photo implique une modification de l'interprétation du texte grec. 
+De même, le texte in situ est conservé au même titre que le texte restauré, quand cela est possible. 
+
+Reprendre à 2.112, "Building inscription".  
