@@ -1,22 +1,19 @@
-# Mémo général : 
+# Classification automatique des inscriptions grecques antiques par vision par ordinateur
 
-- On a privilégié la lisibilité
-- Une inscription fragmentaire mais lisible sur au moins 1 mot majeur est retenue. Variable selon les cas. 
-- On a privilégié de retenir les fragments assemblés aux fragments séparés quand l'image est disponible. 
-- Toute inscription sans image est rejetée et ne se trouve pas ici. 
-- On peut trouver des doubles d'une classe à l'autre. 
-- Toutes les images sont au format JPEG. 
-- Pour la titulature : à part dans les premières où ça cafouille un peu, la titulature est toujours la suivante : nom de la notice (+ retrait des caractères ne pouvant figurer dans un titre de fichier, auquel cas est retranché le signe problématique (ex : ; ?)), auquel on ajoute une lettre en capitale (A, B, C, etc.) pour chaque photo provenant de la même notice. Exemple : si une notice comporte plusieurs fragments, on aura fragment A = (titre notice) A ; fragment B = (titre notice) B. 
+## Objectif du projet
 
-Attention : si le fragment B est illisible par exemple, mais que C est lisible, on aura : fragment A = (titre notice) A ; fragment C = (titre notice) B ! En bref, et en règle générale, les lettres permettent d'identifier non pas la photo précise dans la notice, mais le nombre d'images provenant de la même notice. 
+L’objectif principal de ce projet est de concevoir un modèle de classification automatique capable d’identifier différents types d’inscriptions grecques antiques à partir d’images. Ces inscriptions, issues de contextes variés (dédicatoires, honorifiques, impériales, poétiques, religieuses, etc.), remplissaient des fonctions multiples dans la société grecque antique : certaines étaient destinées à un usage politique (décrets), d’autres à des communications impériales (édits), à des pratiques religieuses (prières), ou encore à des finalités esthétiques et commémoratives (poèmes, épitaphes).
 
-Attention : si plusieurs images sont disponibles dans une seule notice mais qu'une seule est retenue selon les critères définis, alors elle sera indiquée comme s'il n'y avait qu'une image, cad sans lettre : ex: (titre notice). 
+Contrairement aux approches traditionnelles basées sur la reconnaissance textuelle ou l’analyse paléographique des formes d’écriture, notre démarche fait le choix de ne pas exploiter le contenu linguistique. Nous nous concentrons exclusivement sur les caractéristiques visuelles globales des inscriptions (mise en page, formes, encadrements, éléments décoratifs) afin de déterminer leur type. Le défi central est que les images utilisées ne comportent aucune annotation textuelle : le modèle doit apprendre à différencier les types d’inscriptions uniquement à partir des traits visuels.
+
+## Approches utilisées
+
+- **Modèle YOLO** 
+- **Modèle Vision Transformer (ViT)**
+
+## Constitution de la base de données
+
+Le corpus utilisé est la base *Inscriptions of Aphrodisias*[https://insaph.kcl.ac.uk/insaph/](https://insaph.kcl.ac.uk/insaph/). . Il s’agit d’un recueil électronique d’inscriptions grecques gravées sur pierre provenant du site archéologique d’Aphrodisias (Asie Mineure), couvrant une période allant du II\textsuperscript{e} siècle av. J.-C. au VII\textsuperscript{e} siècle apr. J.-C.
+ Les images ont été nettoyées, les doublons supprimés (basés sur le hash MD5 des fichiers).
 
 
-- Le comptage d'éléments dans les classes a été réalisé avant analyse du corpus ; certaines classes peuvent se trouver, après sélection, en sous-effectif. 
-- Normalement, Matthieu et moi avons eu des pratiques communes ; au cas où ce ne serait pas tout à fait le cas, la répartition des tâches fut comme suit : 
-	- Thomas : acclamation ; decree ; dedication + dedication to demos + dedication to emperor donor ; factional ; funerary + funerary verse ; gladiator + gladiator mémorial ; graffiti + graffito.
-	- Matthieu : honours ; imperial + imperial letters ; Letters ; Place inscriptions ; posthumous honors ; prayer + prayer / invocation ; religious ; title ; verse. 
-	- En commun : agonistique. 
-
-Pour la répartition: environ 1600 entrées au total, certaines sans photo, certaines avec plusieurs. Répartition d'environ 800 entrées chacun. 
