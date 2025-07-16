@@ -13,7 +13,7 @@ Contrairement aux approches traditionnelles basées sur la reconnaissance textue
 
 ## Constitution de la base de données
 
-Le corpus utilisé est la base *Inscriptions of Aphrodisias([https://insaph.kcl.ac.uk/insaph/](https://insaph.kcl.ac.uk/insaph/)). Il s’agit d’un recueil électronique d’inscriptions grecques gravées sur pierre provenant du site archéologique d’Aphrodisias (Asie Mineure), couvrant une période allant du IIe siècle av. J.-C. au VIIe siècle apr. J.-C.
+Le corpus utilisé est la base *Inscriptions of Aphrodisias* ([https://insaph.kcl.ac.uk/insaph/](https://insaph.kcl.ac.uk/insaph/)). Il s’agit d’un recueil électronique d’inscriptions grecques gravées sur pierre provenant du site archéologique d’Aphrodisias (Asie Mineure), couvrant une période allant du IIe siècle av. J.-C. au VIIe siècle apr. J.-C.
  Les images ont été nettoyées, les doublons supprimés (basés sur le hash MD5 des fichiers).
 
  ### Répartition des tâches
