@@ -9,8 +9,7 @@ Contrairement aux approches traditionnelles basées sur la reconnaissance textue
 ## Approches utilisées
 
 - **Modèle YOLO** 
-- **Modèle Vision Transformer (ViT)**
-
+- **Modèle Vision Transformer (ViT)** : voici le lien du projet, exécuté dans google Collab [Accéder au projet](https://drive.google.com/drive/folders/18009w-2fo-mFo1M276ckUg0cfyGuziM2?usp=drive_link)
 ## Constitution de la base de données
 
 Le corpus utilisé est la base *Inscriptions of Aphrodisias* ([https://insaph.kcl.ac.uk/insaph/](https://insaph.kcl.ac.uk/insaph/)). Il s’agit d’un recueil électronique d’inscriptions grecques gravées sur pierre provenant du site archéologique d’Aphrodisias (Asie Mineure), couvrant une période allant du IIe siècle av. J.-C. au VIIe siècle apr. J.-C.
